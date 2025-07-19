@@ -1,10 +1,10 @@
 public class Answer {
-    private String index;
+    private String optionChar;
     private String text;
     private boolean correct;
 
-    public Answer(String index, String text, boolean correct) {
-        this.index = index;
+    public Answer(String optionChar, String text, boolean correct) {
+        this.optionChar = optionChar;
         this.text = text;
         this.correct = correct;
     }
