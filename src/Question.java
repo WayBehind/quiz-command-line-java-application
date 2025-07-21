@@ -6,15 +6,21 @@ public class Question {
     private QuestionTypes type;
     private List<Answer> answerList;
 
-    public Question(String text, QuestionTypes type, List<Answer> answerList) {
+    public Question(String text, QuestionTypes type) {
         this.text = text;
         this.type = type;
         this.answerList = new ArrayList<>();
     }
 
-    public void addToAnswerList(Answer answer) {
-        answerList.add(answer);
+    public List<Answer> getAnswerList() {
+        return answerList;
     }
 
+    public void printQuestion() {
 
+    }
+/*
+    public String getUserAnswer(String scanner) {
+        return switch (); // use Enum to decide to use one char from string or more
+    }*/
 }

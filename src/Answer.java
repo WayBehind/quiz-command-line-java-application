@@ -8,6 +8,15 @@ public class Answer {
         this.text = text;
         this.correct = correct;
     }
+
+    public String getOptionChar() {
+        return optionChar;
+    }
+
+    public boolean isCorrect() {
+        return correct;
+    }
+
 }
 
 
