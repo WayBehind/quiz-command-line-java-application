@@ -1,7 +1,7 @@
 public class Answer {
-    private String optionChar;
-    private String text;
-    private boolean correct;
+    final private String optionChar;
+    final private String text;
+    final private boolean correct;
 
     public Answer(String optionChar, String text, boolean correct) {
         this.optionChar = optionChar;
@@ -11,6 +11,10 @@ public class Answer {
 
     public String getOptionChar() {
         return optionChar;
+    }
+
+    public String getText() {
+        return text;
     }
 
     public boolean isCorrect() {

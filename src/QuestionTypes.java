@@ -10,6 +10,4 @@ public enum QuestionTypes {
     public String getDescription() {
         return description;
     }
-
-    // TODO: Use this Enum to set weather getting user input repeats
 }
