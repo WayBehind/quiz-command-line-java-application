@@ -69,7 +69,7 @@ public class Main {
         System.out.println("    Results:    ");
         System.out.println("Your answers: " + quiz.getAllUserAnswers());
         System.out.println("Correct answers: " + quiz.getAllCorrectAnswers());
-        System.out.println("Your score: " + quiz.getScore());
+        System.out.println("Your score: " + quiz.getScore() + "/" + quiz.getAllCorrectAnswers().size());
         System.out.println("----------------");
     }
 }
